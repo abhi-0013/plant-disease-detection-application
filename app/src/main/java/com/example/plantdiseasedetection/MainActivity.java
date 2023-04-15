@@ -25,25 +25,25 @@ import com.github.dhaval2404.imagepicker.ImagePicker;
 public class MainActivity extends AppCompatActivity implements GetResposnse.getResponseInterface {
     private static final String TAG = "MainActivity";
     private ImageView imageView;
-    private Button selectButton;
+//    private Button selectButton;
     private Button predictButton;
-    private TextView class_ ;
-    private TextView confidence_;
+//    private TextView class_ ;
+//    private TextView confidence_;
     private String path = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.main_screen_activity);
 
         imageView = (ImageView) findViewById(R.id.plant_image);
-        selectButton = (Button) findViewById(R.id.Select_button);
+//        selectButton = (Button) findViewById(R.id.Select_button);
         predictButton = (Button) findViewById(R.id.Predict_button);
-        class_ = (TextView) findViewById(R.id.predicted_class);
-        confidence_ = (TextView) findViewById(R.id.Confidence_value);
+//        class_ = (TextView) findViewById(R.id.predicted_class);
+//        confidence_ = (TextView) findViewById(R.id.Confidence_value);
 
 
-        selectButton.setOnClickListener(new View.OnClickListener() {
+        imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -86,12 +86,19 @@ public class MainActivity extends AppCompatActivity implements GetResposnse.getR
 
     @Override
     public void Ondownload(IMAGE img, downloadStatus status) {
-            if(status == downloadStatus.OK){
-                class_.setText(img.getClass_name());
-                confidence_.setText(img.getConfidence());
-            }else{
+
+        if(status == downloadStatus.OK){
+            Intent intent = new Intent(MainActivity.this,MainActivity2.class);
+            intent.putExtra("class",img.getClass_name());
+            intent.putExtra("confidence",img.getConfidence());
+            Log.d(TAG, "Ondownload: "+img.getClass_name()+" "+ img.getConfidence());
+            startActivity(intent);
+        } else{
                 Toast.makeText(this, img.getError(),Toast.LENGTH_SHORT).show();
             }
+//            if(status == downloadStatus.OK){
+//                class_.setText(img.getClass_name());
+//                confidence_.setText(img.getConfidence());
     }
 
 }
