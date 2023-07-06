@@ -51,7 +51,7 @@ Here are a few screenshots of the Plant Disease Detection Android application:
 
 We would like to express our gratitude to the following resources and projects that inspired and helped in the development of this application:
 
-- [PlantVillage Dataset]((https://www.bing.com/ck/a?!&&p=1e1a87352e72feacJmltdHM9MTY4ODYwMTYwMCZpZ3VpZD0xZmRjNWFmYS00Y2NlLTY1MWUtM2Q4ZS00YTdlNGQ3YzY0YjYmaW5zaWQ9NTE5OA&ptn=3&hsh=3&fclid=1fdc5afa-4cce-651e-3d8e-4a7e4d7c64b6&psq=plant+village+dataset+kaggle&u=a1aHR0cHM6Ly93d3cua2FnZ2xlLmNvbS9kYXRhc2V0cy9hYmRhbGxhaGFsaWRldi9wbGFudHZpbGxhZ2UtZGF0YXNldA&ntb=1)https://www.bing.com/ck/a?!&&p=1e1a87352e72feacJmltdHM9MTY4ODYwMTYwMCZpZ3VpZD0xZmRjNWFmYS00Y2NlLTY1MWUtM2Q4ZS00YTdlNGQ3YzY0YjYmaW5zaWQ9NTE5OA&ptn=3&hsh=3&fclid=1fdc5afa-4cce-651e-3d8e-4a7e4d7c64b6&psq=plant+village+dataset+kaggle&u=a1aHR0cHM6Ly93d3cua2FnZ2xlLmNvbS9kYXRhc2V0cy9hYmRhbGxhaGFsaWRldi9wbGFudHZpbGxhZ2UtZGF0YXNldA&ntb=1)
+- [PlantVillage Dataset](https://www.bing.com/ck/a?!&&p=1e1a87352e72feacJmltdHM9MTY4ODYwMTYwMCZpZ3VpZD0xZmRjNWFmYS00Y2NlLTY1MWUtM2Q4ZS00YTdlNGQ3YzY0YjYmaW5zaWQ9NTE5OA&ptn=3&hsh=3&fclid=1fdc5afa-4cce-651e-3d8e-4a7e4d7c64b6&psq=plant+village+dataset+kaggle&u=a1aHR0cHM6Ly93d3cua2FnZ2xlLmNvbS9kYXRhc2V0cy9hYmRhbGxhaGFsaWRldi9wbGFudHZpbGxhZ2UtZGF0YXNldA&ntb=1)
 - [TensorFlow](https://www.tensorflow.org/)
 - [Android Open Source Project](https://source.android.com/)
 
